@@ -1,0 +1,21 @@
+# Cloudflare Pages / Workers Configuration
+name = "cyber-breakout"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
+
+[site]
+bucket = "./dist"
+
+# (Optional) Bind a Cloudflare KV namespace for persistent multi-region high scores:
+# Run: npx wrangler kv namespace create LEADERBOARD_KV
+# Then uncomment and replace the id below:
+# [[kv_namespaces]]
+# binding = "LEADERBOARD_KV"
+# id = "your-kv-namespace-id"
+# preview_id = "your-preview-kv-namespace-id"
+
+# (Optional) Environment variables
+[vars]
+ENVIRONMENT = "production"
+APP_NAME = "Cyber Breakout"

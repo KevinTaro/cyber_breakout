@@ -1,0 +1,6 @@
+{
+  "name": "Cyber Breakout - Cloudflare Edition",
+  "description": "賽博龐克風格打磚塊遊戲，搭載流暢 Canvas 物理渲染、音效合成器、關卡編輯器與 Cloudflare Pages / Workers 無伺服器邊緣部署架構與完整 GitHub 指南。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

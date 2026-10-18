@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Chakra Petch', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #030712;
+  color: #f8fafc;
+  overflow: hidden;
+  user-select: none;
+}
+
+.font-display {
+  font-family: 'Orbitron', 'Chakra Petch', 'Noto Sans TC', sans-serif;
+}
