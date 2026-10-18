@@ -3,9 +3,7 @@ name = "cyber-breakout"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "dist"
-
-[site]
-bucket = "./dist"
+main = "src/worker.ts"
 
 # (Optional) Bind a Cloudflare KV namespace for persistent multi-region high scores:
 # Run: npx wrangler kv namespace create LEADERBOARD_KV
